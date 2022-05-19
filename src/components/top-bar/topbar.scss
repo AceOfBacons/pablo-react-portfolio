@@ -34,14 +34,21 @@
                 align-items: center;
                 margin-left: 30px;
 
+                @include mobile{
+                    display: none;
+                }
+
                 .icon{
-                    font-size: 18px;
+                    font-size: 22px;
                     margin-right: 5px;
                 }
 
                 span{
                     font-size: 25px;
                     font-weight: 500;
+                }
+                img{
+                    height: 45px;
                 }
             }
         }

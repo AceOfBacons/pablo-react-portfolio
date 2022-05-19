@@ -1,5 +1,15 @@
 $mainColor: #ff2a6d;
 $lightAqua: #d1f7ff;
+$lightAquaB: #b8dce2;
 $aqua: #05d9e8;
 $darkAqua: #005678;
 $darkestAqua: #01012b;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+
+}

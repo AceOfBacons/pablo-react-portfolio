@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './works.scss'
+import LightSpeed from 'react-reveal/LightSpeed';
 
 export default function Works() {
   const [currentSlider, setCurrentSlider] = useState(0);
@@ -10,27 +11,27 @@ export default function Works() {
       icon: "./assets/mobile.png",
       title: "Web Design",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "Intermediate skills in various aspects of front-end web development with vanilla ReactJS, JavaScript, jQuery, HTML, CSS, SCSS, Bootstrap 5 and Node EJS and Intermediate skills in back-end web development with Node and JSX. As well able to handle document-oriented databases with MongoDB",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "./assets/webDev.jpg",
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
+      icon: "./assets/console.png",
+      title: "Game Programming",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Hands-on experience with Unity engine; including PC, Android and WebGL games/builds. Skilled in gameplay programming; including Finite state machines systems, wave spawning networks and player movement mechanics.",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "./assets/gameProg.jpeg",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "Generalist Programmer",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Proficiency in object-oriented programming with C# and C++ and Java using Visual Studio 2019 and Eclipse and intermediate understanding of python. Intermediate experience in basic relational databases with Oracle SQL",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "./assets/prog.jpg",
     },
   ];
 
@@ -41,23 +42,28 @@ export default function Works() {
 
   return (
     <div className='works' id='works'>
+      <LightSpeed left duration={1200}>
       <h1>Services</h1>
+      </LightSpeed>
       <div className='slider' style={{transform: `translateX(-${currentSlider * 100}vw)`}}>
         {data.map((d)=>(
         <div className="container">
           <div className="item">
+
             <div className="left">
               <div className="leftContainer">
+              <LightSpeed left duration={1200}>
                 <div className="imgContainer">
                   <img src={d.icon} alt="" />
                 </div>
                 <h2>{d.title}</h2>
                 <p>{d.desc}</p>
-                <span>Projects</span>
+                </LightSpeed>
               </div>
             </div>
+            
             <div className="right">
-              <img src="assets/intera.png" alt="" />
+              <img src={d.img} alt="" />
             </div>
           </div>
         </div>

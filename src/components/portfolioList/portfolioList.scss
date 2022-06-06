@@ -5,12 +5,15 @@ li{
     padding: 7px;
     border-radius: 10px;
     cursor: pointer;
+    transition: all .5s ease;
+    overflow: hidden;
 
     @include mobile{
         margin-right: 20px;
     }
     
     &.active{
+        transition: all .5s ease;
         background-color: $darkAqua;
     }
 }

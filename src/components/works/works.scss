@@ -8,7 +8,7 @@
 
     h1{
         font-size: 50px;
-        height: 550px;
+        height: 580px;
         color: $lightAqua;
 
         @include mobile{
@@ -36,7 +36,7 @@
     }
 
     .slider{
-        height: 350px;
+        height: 420px;
         display: flex;
         position: absolute;
         left: 0;
@@ -55,7 +55,7 @@
             justify-content: center;
 
             .item{
-                width: 700px;
+                width: 900px;
                 height: 100%;
                 background-color: white;
                 border-radius: 20px;
@@ -140,7 +140,8 @@
                     overflow: hidden;
 
                     img{
-                        width: 400px;
+                        width: 540px;
+                        height: 350px;
                         transform: rotate(-10deg);
                     }
                 }

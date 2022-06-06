@@ -1,27 +1,29 @@
 import React from 'react'
 import './testimonials.scss'
+import LightSpeed from 'react-reveal/LightSpeed';
+import Fade from 'react-reveal/Fade';
 
 export default function testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
+      name: "Dohyun Kim",
+      title: "CC Game Developer",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/twitter.png",
+        "assets/dohyun.jfif",
+      icon: "assets/video-game.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "Through working on several projects with Pablo, I learned that he has strong leadership and communication skills. He contributed a lot to the groups being able to form strong relationships among the members, and thanks to that, I enjoyed every moment working with him.",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Mark Carpenter",
+      title: "Senior Director of Business Development at ImageOn Print",
       img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "assets/mark.jfif",
       icon: "assets/youtube.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        "Pablo is an exceptional student and a hard working individual. He clearly takes pride in his work and it shows with the level of professionalism that he engages in. I highly recommend Pablo as a future employee for organizations that want someone they can rely on. ",
       featured: true,
     },
     {
@@ -37,7 +39,9 @@ export default function testimonials() {
   ];
   return (
     <div className='testimonials' id='testimonials'>
+      <LightSpeed duration={1200}>
       <h1>Testimonials</h1>
+      </LightSpeed>
       <div className="container">
         {data.map(d=>(
         <div className={d.featured ? 'card featured' : 'card'}>
@@ -49,10 +53,12 @@ export default function testimonials() {
           <div className="center">
             {d.desc}
           </div>
+          <Fade bottom>
           <div className="bottom">
             <h3>{d.name}</h3>
             <h4>{d.title}</h4>
           </div>
+          </Fade>
           
         </div>
         ))}

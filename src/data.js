@@ -3,50 +3,53 @@ export const featuredPortfolio = [
       id: 1,
       title: "InteraConstruction",
       img:
-        "assets/intera.png",
+        "https://www.youtube.com/embed/ibmGMgFsjCI?autoplay=1&mute=1&loop=1&playlist=ibmGMgFsjCI&controls=0",
+      sourceLink: "https://github.com/F21-G1-S5/InteraConstruction",
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Tournament Creator",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/U_6FHFXFMV8?autoplay=1&mute=1&loop=1&playlist=U_6FHFXFMV8&controls=0",
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "Wander In The Wanders",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/tix2E7O873Q?autoplay=1&mute=1&loop=1&playlist=tix2E7O873Q&controls=0",
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "CyberWest",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/vab77Y1NKwM?autoplay=1&mute=1&loop=1&playlist=vab77Y1NKwM&controls=0",
     },
     {
       id: 5,
-      title: "Hero Web Design",
+      title: "Vulkan Car Showroom",
       img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/CrZ7bWQq988?autoplay=1&mute=1&loop=1&playlist=CrZ7bWQq988&controls=0",
     },
     {
       id: 6,
-      title: "Banking App",
+      title: "A Run To Get Home",
       img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/_ZCZT_5S4v4?autoplay=1&mute=1&loop=1&playlist=_ZCZT_5S4v4&controls=0",
     },
   ];
   
   export const webPortfolio = [
     {
       id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "InteraConstruction",
+      img:
+        "assets/intera.png",
     },
     {
-      id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+      id: 3,
+      title: "Wander In The Wanders",
+      img:
+        "https://www.youtube.com/embed/tix2E7O873Q?autoplay=1&mute=1&loop=1&playlist=tix2E7O873Q&controls=0",
     },
     {
       id: 3,
@@ -73,117 +76,111 @@ export const featuredPortfolio = [
   export const mobilePortfolio = [
     {
       id: 1,
-      title: "Mobile Social Media App",
+      title: "InteraConstruction",
       img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/ibmGMgFsjCI?autoplay=1&mute=1&loop=1&playlist=ibmGMgFsjCI&controls=0",
     },
     {
       id: 2,
-      title: "Mobile Rampa UI Design",
+      title: "Wander In The Wanders",
       img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/tix2E7O873Q?autoplay=1&mute=1&loop=1&playlist=tix2E7O873Q&controls=0",
     },
     {
       id: 3,
-      title: "Mobile E-commerce Design",
+      title: "A Run To Get Home",
       img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/_ZCZT_5S4v4?autoplay=1&mute=1&loop=1&playlist=_ZCZT_5S4v4&controls=0",
     },
     {
       id: 4,
-      title: "Mobile Relax App",
+      title: "Attack Of The Things",
       img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/QeK1FeMOfCU?autoplay=1&mute=1&loop=1&playlist=QeK1FeMOfCU&controls=0",
     },
     {
       id: 5,
-      title: "Mobile Hero Design",
+      title: "Single Server Queue Sim",
       img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/8JjVFUnSd6s?autoplay=1&mute=1&loop=1&playlist=8JjVFUnSd6s&controls=0",
     },
     {
       id: 6,
-      title: "Mobile Banking App",
+      title: "ML Agents BrickBreaker AI",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "https://www.youtube.com/embed/AuZIL2qL61I?autoplay=1&mute=1&loop=1&playlist=AuZIL2qL61I&controls=0",
     },
   ];
   
   export const designPortfolio = [
     {
       id: 1,
-      title: "Design Social Media App",
+      title: "CyberWest",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/vab77Y1NKwM?autoplay=1&mute=1&loop=1&playlist=vab77Y1NKwM&controls=0",
     },
     {
       id: 2,
-      title: "Design Rampa UI Design",
+      title: "Time Is Precious",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/msHsvIgpZRE?autoplay=1&mute=1&loop=1&playlist=msHsvIgpZRE&controls=0",
     },
     {
       id: 3,
-      title: "Design E-commerce Web Design",
+      title: "Escape From Coldridge",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/7UyCIvtqRAE?autoplay=1&mute=1&loop=1&playlist=7UyCIvtqRAE&controls=0",
     },
     {
       id: 4,
-      title: "Design Relax Mobile App",
+      title: "Pong Prototype",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/KQjC_LO-Z2w?autoplay=1&mute=1&loop=1&playlist=KQjC_LO-Z2w&controls=0",
     },
     {
       id: 5,
-      title: "Design Keser Web Design",
+      title: "Asteroids",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/JnS4zJT5ENY?autoplay=1&mute=1&loop=1&playlist=JnS4zJT5ENY&controls=0",
     },
     {
       id: 6,
-      title: "Design Banking App",
+      title: "Breakout Prototype",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/cWADTaS2NUQ?autoplay=1&mute=1&loop=1&playlist=cWADTaS2NUQ&controls=0",
     },
   ];
   
   export const contentPortfolio = [
     {
       id: 1,
-      title: "Content Social Media App",
+      title: "Tournament Creator",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/U_6FHFXFMV8?autoplay=1&mute=1&loop=1&playlist=U_6FHFXFMV8&controls=0",
     },
     {
       id: 2,
-      title: "Content Rampa UI Design",
+      title: "Express Portfolio",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/GxEUagP_j-o?autoplay=1&mute=1&loop=1&playlist=GxEUagP_j-o&controls=0",
     },
     {
       id: 3,
-      title: "Content E-commerce Web Design",
+      title: "4Your Health Web App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/_vJ7rtHl4-E?autoplay=1&mute=1&loop=1&playlist=_vJ7rtHl4-E&controls=0",
     },
     {
       id: 4,
-      title: "Content Relax Mobile App",
+      title: "FastFoods Delivery App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/U6embjPPjGk?autoplay=1&mute=1&loop=1&playlist=U6embjPPjGk&controls=0",
     },
     {
       id: 5,
-      title: "Content Keser Web Design",
+      title: "BMI Calculator App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://www.youtube.com/embed/SP9OtsNQ6Yg?autoplay=1&mute=1&loop=1&playlist=SP9OtsNQ6Yg&controls=0",
     },
   ];
 

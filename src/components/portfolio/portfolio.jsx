@@ -8,9 +8,13 @@ import {
   designPortfolio,
   contentPortfolio,
 } from "../../data";
+import Fade from 'react-reveal/Fade';
+
+import Zoom from 'react-reveal/Zoom';
+
 
 export default function Portfolio() {
-  
+
   const [selected, setSelected] = useState("featured");
   const [data, setData] = useState([]);
   
@@ -53,22 +57,29 @@ export default function Portfolio() {
   },[selected])
   
   return (
-    <div className='portfolio' id='portfolio'>
-    <h1>Portfolio</h1>
+    <div  className='portfolio' id='portfolio'>
+      <Zoom left duration={1200}>
+      <h1>Portfolio</h1>
+      </Zoom>
+    
     <ul>
     {list.map((item)=>(
+      <Zoom left duration={1300}>
       <PortfolioList
       title={item.title}
       active={selected === item.id}
       setSelected={setSelected}
       id={item.id}
+      sourceLink={item.sourceLink}
       />
+      </Zoom>
       ))}
       </ul>
       <div className="container">
       {data.map((d) => (
         <div className="item">
-        <img src={d.img} alt="" />
+        <iframe src={d.img}/>
+        <a href={d.sourceLink}></a>
         <h3>{d.title}</h3>
         </div>
         ))}

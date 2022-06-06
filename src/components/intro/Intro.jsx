@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from 'react'
 import './intro.scss'
 import { init } from 'ityped'
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Zoom from 'react-reveal/Zoom';
 
 export default function Intro() {
   const words = [" Gameplay Programmer", " Level Designer", " Full-Stack Developer", " Web designer"];
@@ -15,7 +18,9 @@ export default function Intro() {
     <div className='intro' id='intro'>
       <div className="left">
         <div className="imgContainer">
+          <Zoom duration={1700}>
           <img src="assets/profile.png" alt="" />
+          </Zoom>
         </div>
       </div>
       <div className="right">

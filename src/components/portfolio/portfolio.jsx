@@ -78,9 +78,9 @@ export default function Portfolio() {
       <div className="container">
       {data.map((d) => (
         <div className="item">
-        <iframe src={d.img}/>
-        <a href={d.sourceLink}></a>
-        <h3>{d.title}</h3>
+        
+        <a href={d.sourceLink} target="_blank"><iframe src={d.img}/><h3>{d.title}</h3></a>
+        
         </div>
         ))}
         </div>

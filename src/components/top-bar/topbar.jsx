@@ -21,7 +21,10 @@ export default function topbar({ menuOpen, setMenuOpen }) {
             <span>p.s.g2000@hotmail.com</span>
           </div>
           <div className="itemContainer">
-          <img src="assets/linke.png" alt="" className="icon"/>
+          <a href="https://www.linkedin.com/in/pablo-saldarriaga-gonzalez/"><img src="assets/linke.png" alt="" className="icon"/></a>
+          </div>
+          <div className="itemContainer">
+          <a href="https://github.com/AceOfBacons"><img src="assets/git.png" alt="" className="icon"/></a>
           </div>
         </div>
         <div className="right">

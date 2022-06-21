@@ -1,6 +1,6 @@
 import React from "react";
 import "./topbar.scss";
-import { Gamepad, ContactPhone } from "@material-ui/icons";
+import { Gamepad, ContactPhone,AgricultureIcon  } from "@material-ui/icons";
 
 export default function topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -19,6 +19,9 @@ export default function topbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <Gamepad className="icon" />
             <span>p.s.g2000@hotmail.com</span>
+          </div>
+          <div className="itemContainer">
+          <img src="assets/linke.png" alt="" className="icon"/>
           </div>
         </div>
         <div className="right">

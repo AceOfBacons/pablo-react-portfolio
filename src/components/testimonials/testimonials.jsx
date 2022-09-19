@@ -28,13 +28,13 @@ export default function testimonials() {
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Itasha Parmar",
+      title: "Team Leader at Zedd Customer Solutions",
       img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "assets/tasha.jfif",
       icon: "assets/linkedin.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "I had the pleasure of working with Pablo. He joined our team as an outbound sales associate and brought with him his determination and excellent work ethic. Shortly after joining our team, I found Pablo to be energetic and extremely goal oriented, these traits quickly made him one of my best sales associates.",
     },
   ];
   return (

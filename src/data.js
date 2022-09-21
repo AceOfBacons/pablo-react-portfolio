@@ -1,5 +1,12 @@
 export const featuredPortfolio = [
     {
+      id: 0,
+      title: "NERF Ultimate Championship",
+      img:
+        "https://www.youtube.com/embed/y0WHDVJ4wEw?autoplay=1&mute=1&loop=1&playlist=y0WHDVJ4wEw&controls=0",
+      sourceLink: "https://www.oculus.com/experiences/quest/6380416095333333/",
+    },
+    {
       id: 1,
       title: "InteraConstruction",
       img:
@@ -26,13 +33,6 @@ export const featuredPortfolio = [
       img:
         "https://www.youtube.com/embed/vab77Y1NKwM?autoplay=1&mute=1&loop=1&playlist=vab77Y1NKwM&controls=0",
         sourceLink: "https://github.com/AceOfBacons/CyberWest",
-    },
-    {
-      id: 5,
-      title: "Vulkan Car Showroom",
-      img:
-        "https://www.youtube.com/embed/CrZ7bWQq988?autoplay=1&mute=1&loop=1&playlist=CrZ7bWQq988&controls=0",
-        sourceLink: "https://github.com/AceOfBacons/Vulkan-Car-Showroom",
     },
     {
       id: 6,

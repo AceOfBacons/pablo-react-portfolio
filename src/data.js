@@ -1,34 +1,41 @@
 export const featuredPortfolio = [
     {
       id: 0,
+      title: "Path Of Titans",
+      img:
+        "https://www.youtube.com/embed/24dtP87n-lg&t=1s?autoplay=1&mute=1&loop=1&playlist=24dtP87n-lg&t=1s&controls=0",
+      sourceLink: "https://pathoftitans.com/",
+    },  
+    {
+      id: 1,
       title: "NERF Ultimate Championship",
       img:
         "https://www.youtube.com/embed/y0WHDVJ4wEw?autoplay=1&mute=1&loop=1&playlist=y0WHDVJ4wEw&controls=0",
       sourceLink: "https://www.oculus.com/experiences/quest/6380416095333333/",
     },
     {
-      id: 1,
+      id: 2,
       title: "InteraConstruction",
       img:
         "https://www.youtube.com/embed/ibmGMgFsjCI?autoplay=1&mute=1&loop=1&playlist=ibmGMgFsjCI&controls=0",
       sourceLink: "https://github.com/F21-G1-S5/InteraConstruction",
     },
     {
-      id: 2,
+      id: 3,
       title: "Tournament Creator",
       img:
         "https://www.youtube.com/embed/U_6FHFXFMV8?autoplay=1&mute=1&loop=1&playlist=U_6FHFXFMV8&controls=0",
         sourceLink: "https://tournamentsite.herokuapp.com/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Wander In The Wanders",
       img:
         "https://www.youtube.com/embed/tix2E7O873Q?autoplay=1&mute=1&loop=1&playlist=tix2E7O873Q&controls=0",
         sourceLink: "https://github.com/WonderousSoftworks/WonderInTheWonders",
     },
     {
-      id: 4,
+      id: 5,
       title: "CyberWest",
       img:
         "https://www.youtube.com/embed/vab77Y1NKwM?autoplay=1&mute=1&loop=1&playlist=vab77Y1NKwM&controls=0",

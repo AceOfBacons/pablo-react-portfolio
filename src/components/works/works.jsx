@@ -22,16 +22,16 @@ export default function Works() {
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Generalist Programmer",
-      desc: "Proficiency in object-oriented programming with C#, C++ and Java using Visual Studio/Eclipse and intermediate understanding of Python.",
-      img: "./assets/prog.jpg",
+      icon: "./assets/search.png",
+      title: "QA Testing",
+      desc: "Expertise in test management/agile testing with JIRA and TestRail, being able to ensure timely and quality delivery; by logging, tracking and resolving bugs & issues. On another hand I also posses experience in test documentation and planning, including creating and maintaining comprehensive test plans, test cases, and test reports. Finally I possess experience in automated testing frameworks with Selenium, and multiple manual testing techniques such as regression testing, functional, Whitebox, BlackBox, smoke, performance, exploratory and destructive testing.",
+      img: "./assets/qa_image.png",
     },
     {
       id: "4",
-      icon: "./assets/qa_image.png",
-      title: "QA Testing",
-      desc: "Expertise in test management/agile testing with JIRA and TestRail, being able to ensure timely and quality delivery; by logging, tracking and resolving bugs & issues. On another hand I also posses experience in test documentation and planning, including creating and maintaining comprehensive test plans, test cases, and test reports. Finally I possess experience in automated testing frameworks with Selenium, and multiple manual testing techniques such as regression testing, functional, Whitebox, BlackBox, smoke, performance, exploratory and destructive testing.",
+      icon: "./assets/writing.png",
+      title: "Generalist Programmer",
+      desc: "Proficiency in object-oriented programming with C#, C++ and Java using Visual Studio/Eclipse and intermediate understanding of Python.",
       img: "./assets/prog.jpg",
     },
   ];

@@ -29,20 +29,13 @@ export const featuredPortfolio = [
     },
     {
       id: 4,
-      title: "Wander In The Wanders",
-      img:
-        "https://www.youtube.com/embed/tix2E7O873Q?autoplay=1&mute=1&loop=1&playlist=tix2E7O873Q&controls=0",
-        sourceLink: "https://github.com/WonderousSoftworks/WonderInTheWonders",
-    },
-    {
-      id: 5,
       title: "CyberWest",
       img:
         "https://www.youtube.com/embed/vab77Y1NKwM?autoplay=1&mute=1&loop=1&playlist=vab77Y1NKwM&controls=0",
         sourceLink: "https://github.com/AceOfBacons/CyberWest",
     },
     {
-      id: 6,
+      id: 5,
       title: "A Run To Get Home",
       img:
         "https://www.youtube.com/embed/_ZCZT_5S4v4?autoplay=1&mute=1&loop=1&playlist=_ZCZT_5S4v4&controls=0",

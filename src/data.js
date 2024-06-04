@@ -5,34 +5,34 @@ export const featuredPortfolio = [
       img:
         "https://www.youtube.com/embed/24dtP87n-lg&t=1s?autoplay=1&mute=1&loop=1&playlist=24dtP87n-lg&t=1s&controls=0",
       sourceLink: "https://pathoftitans.com/",
-    },  
+    },
     {
       id: 1,
+      title: "Doppeltone",
+      img:
+        "https://www.youtube.com/embed/pp6koIUPycI?autoplay=1&mute=1&loop=1&playlist=pp6koIUPycI&controls=0",
+        sourceLink: "https://doppeltone.com/",
+    }, 
+    {
+      id: 2,
       title: "NERF Ultimate Championship",
       img:
         "https://www.youtube.com/embed/y0WHDVJ4wEw?autoplay=1&mute=1&loop=1&playlist=y0WHDVJ4wEw&controls=0",
       sourceLink: "https://www.oculus.com/experiences/quest/6380416095333333/",
     },
     {
-      id: 2,
+      id: 3,
       title: "InteraConstruction",
       img:
         "https://www.youtube.com/embed/ibmGMgFsjCI?autoplay=1&mute=1&loop=1&playlist=ibmGMgFsjCI&controls=0",
       sourceLink: "https://github.com/F21-G1-S5/InteraConstruction",
     },
     {
-      id: 3,
+      id: 4,
       title: "Tournament Creator",
       img:
         "https://www.youtube.com/embed/U_6FHFXFMV8?autoplay=1&mute=1&loop=1&playlist=U_6FHFXFMV8&controls=0",
         sourceLink: "https://tournamentsite.herokuapp.com/",
-    },
-    {
-      id: 4,
-      title: "CyberWest",
-      img:
-        "https://www.youtube.com/embed/vab77Y1NKwM?autoplay=1&mute=1&loop=1&playlist=vab77Y1NKwM&controls=0",
-        sourceLink: "https://github.com/AceOfBacons/CyberWest",
     },
     {
       id: 5,

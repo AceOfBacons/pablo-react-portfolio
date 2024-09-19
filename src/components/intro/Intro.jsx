@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import Zoom from "react-reveal/Zoom";
 
 export default function Intro() {
-  const words = [" QA Enginner", " Full-Stack Developer", " Web Designer"];
+  const words = [" QA Engineer", " Full-Stack Developer", " Web Designer"];
   const { text } = useTypewriter({
     words,
     loop: 0, // Infinite

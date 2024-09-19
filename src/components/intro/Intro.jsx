@@ -1,25 +1,24 @@
-import React, { useEffect, useRef } from 'react'
-import './intro.scss'
-import { init } from 'ityped'
-import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import Zoom from 'react-reveal/Zoom';
+import React, { useEffect, useRef } from "react";
+import "./intro.scss";
+import { init } from "ityped";
+import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Zoom from "react-reveal/Zoom";
 
 export default function Intro() {
-  const words = [" Gameplay Programmer", " Level Designer", " Full-Stack Developer", " Web designer"];
+  const words = [" QA Enginner", " Full-Stack Developer", " Web Designer"];
   const { text } = useTypewriter({
-      words,
-      loop: 0, // Infinite
+    words,
+    loop: 0, // Infinite
   });
 
   return (
-    
-    <div className='intro' id='intro'>
+    <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
           <Zoom duration={1700}>
-          <img src="assets/profile.png" alt="" />
+            <img src="assets/profile.png" alt="" />
           </Zoom>
         </div>
       </div>
@@ -27,13 +26,14 @@ export default function Intro() {
         <div className="wrapper">
           <h2>Hello there! I am</h2>
           <h1>Pablo Saldarriaga</h1>
-          <h3>Junior:   
+          <h3>
+            Experienced:
             <span>
               <Typewriter
                 words={words}
                 loop
                 cursor
-                cursorStyle='_'
+                cursorStyle="_"
                 typeSpeed={75}
                 deleteSpeed={50}
               />
@@ -45,5 +45,5 @@ export default function Intro() {
         </a>
       </div>
     </div>
-  )
+  );
 }

@@ -88,6 +88,51 @@ export const featuredPortfolio = [
         sourceLink: "https://github.com/Kjumar/G2_ML_BrickBreaker",
     },
   ];
+
+  export const unrealPortfolio = [
+    {
+      id: 1,
+      title: "Betrayal Blade",
+      img:
+        "https://www.youtube.com/embed/fflTNlMlmD0?autoplay=1&mute=1&loop=1&playlist=fflTNlMlmD0&controls=0",
+        sourceLink: "https://www.youtube.com/watch?v=fflTNlMlmD0&t=24s&ab_channel=AceOfBacons",
+    },
+    {
+      id: 2,
+      title: "Path Of Titans",
+      img:
+        "https://www.youtube.com/embed/24dtP87n-lg&t=1s?autoplay=1&mute=1&loop=1&playlist=24dtP87n-lg&t=1s&controls=0",
+        sourceLink: "https://pathoftitans.com/",
+    },
+    {
+      id: 3,
+      title: "Automated Functional Tests",
+      img:
+        "https://www.youtube.com/embed/9UaiB4RPNao?autoplay=1&mute=1&loop=1&playlist=9UaiB4RPNao&controls=0",
+        sourceLink: "https://github.com/AceOfBacons/samples-unreal-automation",
+    },
+    {
+      id: 4,
+      title: "Unity To UE5 Level Migration",
+      img:
+        "https://www.youtube.com/embed/R1XcM9ocyWc?autoplay=1&mute=1&loop=1&playlist=R1XcM9ocyWc&controls=0",
+        sourceLink: "https://github.com/AceOfBacons/UnityToUnrealMigration/tree/main",
+    },
+    {
+      id: 5,
+      title: "Replay System",
+      img:
+        "https://www.youtube.com/embed/JnnYHGuJlKk?autoplay=1&mute=1&loop=1&playlist=JnnYHGuJlKk&controls=0",
+        sourceLink: "https://github.com/AceOfBacons/UE5-ReplaySystemDemo",
+    },
+    {
+      id: 6,
+      title: "NetImGUI Server-To-Client",
+      img:
+        "https://www.youtube.com/embed/OEaXDdDrrVE?autoplay=1&mute=1&loop=1&playlist=OEaXDdDrrVE&controls=0",
+        sourceLink: "https://github.com/AceOfBacons/NetImGUIDemo",
+    },
+  ];
   
   export const designPortfolio = [
     {

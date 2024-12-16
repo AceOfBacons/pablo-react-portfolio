@@ -4,6 +4,7 @@ import "./portfolio.scss";
 import {
   featuredPortfolio,
   webPortfolio,
+  unrealPortfolio,
   mobilePortfolio,
   designPortfolio,
   contentPortfolio,
@@ -23,7 +24,11 @@ export default function Portfolio() {
     },
     {
       id: "Unity3d",
-      title: "Unity/Unreal Engine",
+      title: "Unity",
+    },
+    {
+      id: "Unreal",
+      title: "Unreal Engine",
     },
     {
       id: "Unity2d",
@@ -42,6 +47,9 @@ export default function Portfolio() {
         break;
       case "Unity3d":
         setData(mobilePortfolio);
+        break;
+      case "Unreal":
+        setData(unrealPortfolio);
         break;
       case "Unity2d":
         setData(designPortfolio);
